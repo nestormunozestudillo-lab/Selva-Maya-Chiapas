@@ -1,6 +1,6 @@
 {
-  "titulo_geovisor": "Geovisor Mesoamérica",
-  "autor_desarrollador": "AFOLU Copernicus",
+  "titulo_geovisor": "Selva-Maya-Chiapas",
+  "autor_desarrollador": "nestormunozestudillo-lab",
   
   // Mapa base por defecto. Descomenta SOLO UNO de los siguientes valores:
   "mapa_base_defecto": "dark",
@@ -12,7 +12,9 @@
   // Lista de archivos GeoJSON/JSON en la carpeta data/ que se cargarán automáticamente.
   // Es muy útil para despliegue estático (como GitHub Pages) donde no se pueden escanear carpetas dinámicamente:
   "capas_a_cargar": [
-    "Areas_Protegidas_corte.json",
-    "Limite_ZonaEstudio.json"
+    "usv_MontesA-09.prj",
+    "usv_MontesA-09.shp",
+    "usv_MontesA-09.shx",
+    "usv_MontesA-09.dbf"
   ]
 }
