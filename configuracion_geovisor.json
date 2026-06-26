@@ -12,9 +12,6 @@
   // Lista de archivos GeoJSON/JSON en la carpeta data/ que se cargarán automáticamente.
   // Es muy útil para despliegue estático (como GitHub Pages) donde no se pueden escanear carpetas dinámicamente:
   "capas_a_cargar": [
-    "usv_MontesA-09.prj",
-    "usv_MontesA-09.shp",
-    "usv_MontesA-09.shx",
-    "usv_MontesA-09.dbf"
+    "WGS84_usv_MontesA-2009.json"
   ]
 }
